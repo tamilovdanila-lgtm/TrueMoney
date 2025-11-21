@@ -259,9 +259,10 @@ export default function BuyProposalsDialog({
             {loading ? (
               'Обработка...'
             ) : (
-              <>
-                Купить за <PriceDisplay amount={selectedPkg?.priceUSD || 0} fromCurrency="USD" />
-              </>
+              <span className="flex items-center gap-1.5">
+                Купить за
+                <PriceDisplay amount={selectedPkg?.priceUSD || 0} fromCurrency="USD" />
+              </span>
             )}
           </Button>
         </DialogFooter>
