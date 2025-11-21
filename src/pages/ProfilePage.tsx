@@ -726,10 +726,10 @@ export default function ProfilePage() {
   return (
     <div className="min-h-screen bg-background">
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 lg:py-10">
-          <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-4 lg:gap-6 items-start">
-            <aside className="grid gap-4 lg:gap-6 lg:sticky lg:top-24 lg:self-start lg:overflow-y-auto lg:pr-2" style={{ maxHeight: 'calc(100vh - 7rem)' }}>
+          <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-6 lg:gap-8 items-start">
+            <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
               <Card>
-                <CardContent className="p-4 lg:p-6 grid gap-3 lg:gap-4">
+                <CardContent className="p-5 lg:p-7 grid gap-4 lg:gap-5">
                   <div className="flex items-center gap-3">
                     <div className="relative flex-shrink-0">
                       <img src={profile.avatar} alt="avatar" className="h-12 w-12 lg:h-16 lg:w-16 rounded-2xl object-cover" />
@@ -808,7 +808,7 @@ export default function ProfilePage() {
               </Card>
 
               <Card className="bg-gradient-to-br from-[#EFFFF8] to-white border-[#6FE7C8]/30 hidden lg:block">
-                <CardContent className="p-6 grid gap-4">
+                <CardContent className="p-7 grid gap-5">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="h-8 w-8 rounded-lg bg-[#6FE7C8] flex items-center justify-center">
                       <Star className="h-4 w-4 text-white" />
@@ -871,9 +871,9 @@ export default function ProfilePage() {
               </Card>
             </aside>
 
-            <main className="grid gap-4 lg:gap-6 min-w-0">
+            <main className="space-y-6 min-w-0">
               <Card>
-                <CardContent className="p-3 lg:p-6">
+                <CardContent className="p-4 lg:p-7">
                   <div className="flex flex-col lg:flex-row lg:items-center gap-2">
                     <div className="flex flex-wrap items-center gap-2 lg:flex-1">
                       {[{ id: 'portfolio', label: 'Портфолио' }, { id: 'market', label: 'Биржа' }, { id: 'about', label: 'О себе' }, { id: 'reviews', label: 'Отзывы' }, { id: 'settings', label: 'Настройки' }].map(t => (
