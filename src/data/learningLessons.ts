@@ -18,92 +18,44 @@ export const lessons: Lesson[] = [
       en: 'Getting Started as a Freelancer'
     },
     content: {
-      ru: `Фриланс — это не просто "сидеть дома и делать задачки из интернета".
-Это целый набор навыков: как общаться, как держать слово, как не перегореть и при этом зарабатывать.
+      ru: `Фриланс — это набор навыков: общение, надёжность, умение не перегореть и зарабатывать.
 
-Представь, что ты выходишь на новую работу. Только вместо офиса — платформа, вместо начальника — клиенты, вместо оклада — твой личный результат.
+1. Оформи профиль
 
-Начнём с трёх базовых шагов.
-
-1. Оформи профиль как витрину
-
-Клиент видит тебя через профиль. Если он пустой или кривой — шансов мало.
-
-Аватар: не мем, не рандомная картинка. Либо твоё лицо, либо аккуратный нейтральный образ.
-
+Аватар: твоё лицо или аккуратный нейтральный образ.
 Описание: кто ты и что делаешь в 2–4 предложениях.
-Пример: «Front-end разработчик, делаю адаптивные сайты и лендинги. Люблю аккуратный интерфейс, читаемый код и быстрые загрузки.»
+Навыки: технологии, направления.
+Примеры работ: даже 2–3 работы лучше пустого профиля.
 
-Навыки: технологии, направления (React, дизайн лендингов, копирайтинг, монтаж, таргет и т.п.).
+2. Выбери 1–2 направления
 
-Примеры работ: даже если проектов мало, лучше честно показать 2–3 штуки, чем ничего.
+Не разбрасывайся на всё подряд. Выбери то, что реально умеешь делать качественно.
 
-2. Выбери 1–2 сильных направления
+3. Настрой цены
 
-Ошибка новичка — «я всё умею, берите всё подряд».
-Так не работает. На старте лучше быть понятным, чем «универсальным солдатом».
-
-Выбери то, что реально умеешь и можешь делать качественно.
-
-Не разбрасывайся на шесть услуг сразу.
-
-Остальное можно докрутить позже, когда наберёшься опыта и отзывов.
-
-3. Настрой стартовые цены
-
-Твоя цель на старте — не "сорвать куш", а набрать первые успешные проекты.
-
-Посмотри, какие цены у других в твоей нише.
-
-Поставь немного ниже рынка, чтобы мотивировать клиентов выбрать именно тебя.
-
-Не падай до абсурда: слишком дёшево вызывает недоверие.
+Цель на старте — набрать первые успешные проекты. Поставь цену немного ниже рынка, но не падай до абсурда.
 
 Главная мысль:
-Фриланс — это марафон. Сегодня ты ставишь аватар и пишешь первое описание. Через пару месяцев у тебя уже профиль с отзывами и портфолио. Ты уже на старте — дальше просто двигаться вперёд.`,
-      en: `Freelancing is not just "sitting at home and doing tasks from the internet."
-It's a whole set of skills: how to communicate, how to keep your word, how not to burn out while earning money.
+Фриланс — это марафон. Сегодня ты создаёшь профиль, через пару месяцев у тебя уже отзывы и портфолио.`,
+      en: `Freelancing is a set of skills: communication, reliability, avoiding burnout while earning.
 
-Imagine starting a new job. But instead of an office — a platform, instead of a boss — clients, instead of a salary — your personal results.
+1. Set up your profile
 
-Let's start with three basic steps.
-
-1. Set up your profile as a showcase
-
-Clients see you through your profile. If it's empty or poorly done — your chances are slim.
-
-Avatar: not a meme, not a random picture. Either your face or a neat neutral image.
-
+Avatar: your face or a neat neutral image.
 Description: who you are and what you do in 2-4 sentences.
-Example: "Front-end developer, I create responsive websites and landing pages. I love clean interfaces, readable code, and fast loading times."
+Skills: technologies, areas.
+Work examples: even 2-3 pieces are better than an empty profile.
 
-Skills: technologies, areas (React, landing page design, copywriting, video editing, targeting, etc.).
+2. Choose 1-2 areas
 
-Work examples: even if you have few projects, it's better to honestly show 2-3 pieces than nothing.
+Don't spread yourself thin. Choose what you can really do with quality.
 
-2. Choose 1-2 strong areas
+3. Set prices
 
-A beginner's mistake is "I can do everything, take me for anything."
-It doesn't work that way. At the start, it's better to be clear than a "universal soldier."
-
-Choose what you really know and can do with quality.
-
-Don't spread yourself across six services at once.
-
-You can add more later when you gain experience and reviews.
-
-3. Set starting prices
-
-Your goal at the start is not to "hit the jackpot" but to get your first successful projects.
-
-Look at what prices others in your niche have.
-
-Set slightly below market to motivate clients to choose you.
-
-Don't go absurdly low: too cheap raises distrust.
+Goal at start — get first successful projects. Set price slightly below market, but don't go absurdly low.
 
 Key takeaway:
-Freelancing is a marathon. Today you set an avatar and write your first description. In a couple of months, you'll have a profile with reviews and a portfolio. You're already starting — just keep moving forward.`
+Freelancing is a marathon. Today you create a profile, in a couple of months you'll have reviews and a portfolio.`
     }
   },
   {
@@ -113,118 +65,46 @@ Freelancing is a marathon. Today you set an avatar and write your first descript
       en: 'How to Get Your First Order'
     },
     content: {
-      ru: `Первый заказ всегда ощущается как "невозможно". Кажется, что без отзывов никто не выберет. Но есть схема, которая реально работает.
+      ru: `Первый заказ кажется невозможным. Но есть схема, которая работает.
 
-1. Временная скидка на старте
+1. Временная скидка
 
-Это не про "дёшево навсегда", а про осознанный старт.
+Цена на 20–30% ниже рынка. Откровенно напиши: набираешь первые отзывы. После 3–5 сделок — поднимаешь прайс.
 
-Сделай цену на 20–30% ниже среднего по рынку.
+2. Живые отклики
 
-Откровенно напиши: сейчас набираешь первые отзывы, поэтому цена ниже.
+Не шаблоны. Перескажи задачу своими словами, опиши план в 2–3 пунктах, дай пример работы.
 
-Как только появятся 3–5 успешных сделок — поднимаешь прайс.
+3. Маленький бонус
 
-Клиенту легче рискнуть с новичком, когда цена приятная и честно объяснена.
-
-2. Пиши живые отклики, не копипасту
-
-Шаблонные сообщения типа «Здравствуйте, готов выполнить ваш заказ» клиенты видят десятками. Они ничего о тебе не говорят.
-
-Сделай так:
-
-Перескажи задачу своими словами: покажи, что ты понял суть.
-
-Коротко опиши, как будешь решать: 2–3 пункта.
-
-Дай пример похожей работы (если есть).
-
-Покажи план: "Сначала сделаем это, затем это. Срок — такой-то."
-
-Клиент должен почувствовать, что ты ответил именно ему, а не "кому угодно".
-
-3. Дай маленький бонус
-
-Сильный ход на старте — добавить бонус, который не ломает тебя, но радует клиента.
-
-Примеры:
-
-«Сделаю одну дополнительную правку бесплатно.»
-
-«Запишу короткое видео с объяснением результата.»
-
-«Сделаю адаптацию под мобильные как бонус.»
-
-Это повышает ощущение ценности, даже при небольшой цене.
+«Сделаю одну правку бесплатно», «Запишу видео с объяснением», «Адаптация под мобильные как бонус».
 
 4. Реагируй быстро
 
-Во фрилансе скорость ответа — огромный плюс.
-
-Старайся отвечать на новые запросы в течение часа (когда ты онлайн).
-
-Если занят, напиши: «Сейчас не у компьютера, смогу подробно ответить через …».
-
-Клиенту важно видеть, что исполнитель живой и на связи.
+Отвечай на запросы в течение часа. Клиенту важно видеть живого исполнителя.
 
 Главная мысль:
-Первые заказы — самые сложные. Но как только появляется первый успешный кейс и отзыв, дальше становится гораздо легче: у тебя уже есть доказательство, что ты умеешь работать.`,
-      en: `The first order always feels "impossible." It seems like without reviews, no one will choose you. But there's a strategy that really works.
+Первые заказы — самые сложные. Но как только появляется первый отзыв, дальше легче.`,
+      en: `The first order seems impossible. But there's a strategy that works.
 
-1. Temporary discount at the start
+1. Temporary discount
 
-This isn't about "cheap forever," but about a conscious start.
+Price 20-30% below market. Be honest: collecting first reviews. After 3-5 deals — raise prices.
 
-Set your price 20-30% below the market average.
+2. Personalized proposals
 
-Be honest: you're collecting first reviews, so the price is lower.
+Not templates. Rephrase the task, describe plan in 2-3 points, give work example.
 
-Once you get 3-5 successful deals — raise your prices.
+3. Small bonus
 
-Clients find it easier to risk with a newcomer when the price is pleasant and honestly explained.
-
-2. Write personalized proposals, not copy-paste
-
-Template messages like "Hello, ready to complete your order" are seen by clients by the dozens. They say nothing about you.
-
-Do this instead:
-
-Rephrase the task in your own words: show that you understood the essence.
-
-Briefly describe how you'll solve it: 2-3 points.
-
-Give an example of similar work (if any).
-
-Show a plan: "First we'll do this, then that. Timeline — such and such."
-
-The client should feel you responded specifically to them, not "to anyone."
-
-3. Give a small bonus
-
-A strong move at the start — add a bonus that doesn't break you but pleases the client.
-
-Examples:
-
-"I'll do one additional revision for free."
-
-"I'll record a short video explaining the result."
-
-"I'll do mobile adaptation as a bonus."
-
-This increases perceived value, even with a small price.
+"One free revision", "Video explanation", "Mobile adaptation as bonus".
 
 4. Respond quickly
 
-In freelancing, response speed is a huge plus.
-
-Try to respond to new requests within an hour (when you're online).
-
-If busy, write: "Not at the computer now, will be able to respond in detail in..."
-
-It's important for the client to see the contractor is alive and available.
+Reply to requests within an hour. Clients want to see a live contractor.
 
 Key takeaway:
-First orders are the hardest. But once the first successful case and review appears, it becomes much easier: you already have proof that you know how to work.`
+First orders are hardest. But once the first review appears, it gets easier.`
     }
   },
   {
@@ -234,130 +114,441 @@ First orders are the hardest. But once the first successful case and review appe
       en: 'How to Communicate with Clients'
     },
     content: {
-      ru: `Клиент запоминает не только результат, но и опыт работы с тобой. Можно сделать круто, но общаться так, что человек не захочет возвращаться.
+      ru: `Клиент запоминает не только результат, но и опыт работы с тобой.
 
 1. Пиши коротко и структурно
 
-Никто не любит огромные простыни текста без абзацев.
-
-Делай короткие абзацы.
-
-В начале письма отвечай на главный вопрос.
-
-Если нужно — используй списки: «Смотрите, предлагаю так: 1)… 2)… 3)…».
-
-Клиент должен легко "сканировать" сообщение глазами.
+Короткие абзацы, главный вопрос в начале, используй списки.
 
 2. Уточняющие вопросы — это профессионально
 
-Молчаливый исполнитель, который просто кивает и делает "как понял", часто попадает в переделки.
+«Какой приоритет: скорость или качество?», «Есть примеры, которые нравятся?»
 
-Примеры вопросов:
+3. Держи в курсе
 
-«Какой для вас приоритет: скорость или максимальное качество?»
-
-«Есть ли примеры работ/сайтов/дизайнов, которые вам нравятся?»
-
-«Что важнее: минималистичность или детализация?»
-
-Это не "занудство" — это забота о том, чтобы сделать то, что действительно нужно.
-
-3. Держи в курсе, даже если всё в порядке
-
-Молчание — плохо. Клиент не знает, забросил ты работу или активно делаешь.
-
-Отправь короткое сообщение:
-
-«Сделал первую часть, прикрепляю предварительный вариант для обратной связи.»
-
-«Закончил текст, остался дизайн — выложу завтра к вечеру.»
-
-Даже если ты ещё не готов показать полный результат, дай понять, что проект жив.
+Отправляй короткие обновления: «Сделал первую часть», «Остался дизайн — выложу завтра».
 
 4. Не обещай то, что не уверен
-
-Если клиент просит: «Можешь успеть до завтра?» — а ты не уверен, лучше честно:
-
-«Если сильно поджимает, попробую. Но по опыту, чтобы сделать качественно, реалистичнее послезавтра к обеду.»
 
 Лучше согласовать реалистичный срок, чем облажаться в последний момент.
 
 5. Контролируй эмоции
 
-Иногда клиенты бесят: вносят десятую правку, кидают в 00:00, пишут путано.
-
-Но внешне оставайся спокойным:
-
-«Понял, посмотрю и отвечу в течение пары часов.»
-
-«Давайте уточню, что именно изменить.»
-
-Эмоции в тексте читаются легко. Профессионал держит себя в руках.
+Оставайся спокойным, даже если клиент бесит. Профессионал держит себя в руках.
 
 Главная мысль:
-Клиент платит не только за результат, но и за комфорт в общении. Если ты вовремя отвечаешь, внятно объясняешь и не создаёшь нервотрёпку — с тобой захотят работать снова.`,
-      en: `Clients remember not only the result but also the experience of working with you. You can deliver great work but communicate in a way that makes them not want to return.
+Клиент платит за комфорт в общении. Вовремя отвечаешь и не создаёшь нервотрёпку — будут возвращаться.`,
+      en: `Clients remember not only the result but also working with you.
 
 1. Write short and structured
 
-No one likes huge walls of text without paragraphs.
-
-Make short paragraphs.
-
-Answer the main question at the start of the message.
-
-If needed — use lists: "Look, I suggest this: 1)... 2)... 3)..."
-
-The client should be able to easily "scan" the message with their eyes.
+Short paragraphs, main question first, use lists.
 
 2. Clarifying questions are professional
 
-A silent contractor who just nods and does "as understood" often gets into trouble.
+"Priority: speed or quality?", "Any examples you like?"
 
-Example questions:
+3. Keep informed
 
-"What's your priority: speed or maximum quality?"
-
-"Are there any examples of work/websites/designs you like?"
-
-"What's more important: minimalism or detail?"
-
-This isn't "being annoying" — it's caring about doing what's really needed.
-
-3. Keep them informed, even if everything is fine
-
-Silence is bad. The client doesn't know if you abandoned the work or are actively doing it.
-
-Send a short message:
-
-"Finished the first part, attaching a preliminary version for feedback."
-
-"Completed the text, design remains — will post tomorrow evening."
-
-Even if you're not ready to show the full result, let them know the project is alive.
+Send short updates: "Finished first part", "Design remains — will post tomorrow".
 
 4. Don't promise what you're not sure of
 
-If the client asks: "Can you finish by tomorrow?" — and you're not sure, better be honest:
+Better to agree on realistic deadline than fail at last moment.
 
-"If it's really urgent, I'll try. But from experience, to do it quality, more realistic would be the day after tomorrow by noon."
+5. Control emotions
 
-Better to agree on a realistic deadline than to fail at the last moment.
-
-5. Control your emotions
-
-Sometimes clients are annoying: make the tenth revision, message at midnight, write confusingly.
-
-But stay calm on the outside:
-
-"Got it, will look and respond within a couple of hours."
-
-"Let me clarify what exactly to change."
-
-Emotions in text are easy to read. A professional keeps composure.
+Stay calm even if client is annoying. Professional keeps composure.
 
 Key takeaway:
-Clients pay not only for the result but also for comfort in communication. If you respond on time, explain clearly, and don't create stress — they'll want to work with you again.`
+Client pays for comfortable communication. Respond on time and don't create stress — they'll return.`
+    }
+  },
+  {
+    id: 4,
+    title: {
+      ru: 'Как оформлять услугу',
+      en: 'How to Present Your Service'
+    },
+    content: {
+      ru: `Карточка услуги — это твой мини-магазин. Клиент решает за пару секунд: остаться или пролистать.
+
+1. Название — максимально простое
+
+«Сделаю лендинг на React», «Смонтирую видео для TikTok». Человек должен сразу понять, что ты предлагаешь.
+
+2. Описание — 3–5 предложений
+
+Что делаешь, для кого, какой результат. Без воды.
+
+3. Преимущества
+
+«Быстро отвечаю», «Делаю правки до результата», «Объясняю просто».
+
+4. Пакеты: базовый, стандарт, премиум
+
+Клиент выбирает по бюджету, а не просто «да/нет».
+
+Главная мысль:
+Человек должен понять твою услугу за 5 секунд: что делаешь, сколько стоит, чем отличаешься.`,
+      en: `Service card is your mini-store. Client decides in seconds: stay or scroll.
+
+1. Title — maximally simple
+
+"Build React landing page", "Edit TikTok video". Person should immediately understand what you offer.
+
+2. Description — 3-5 sentences
+
+What you do, for whom, what result. No fluff.
+
+3. Advantages
+
+"Quick responses", "Revisions until done", "Explain simply".
+
+4. Packages: basic, standard, premium
+
+Client chooses by budget, not just "yes/no".
+
+Key takeaway:
+Person should understand your service in 5 seconds: what you do, how much, why you.`
+    }
+  },
+  {
+    id: 5,
+    title: {
+      ru: 'Как сделать крутое портфолио',
+      en: 'How to Build Great Portfolio'
+    },
+    content: {
+      ru: `Портфолио — это витрина, а не свалка работ.
+
+1. Выбери 3–6 лучших работ
+
+Убери всё слабое и старое. Оставь только то, что не стыдно показать.
+
+2. Нормальные скриншоты
+
+Без лишних вкладок, уведомлений. Одинаковый размер и формат.
+
+3. Описывай не только что, но и зачем
+
+Задача → Что сделал → Результат. Это мини-история.
+
+4. Нет коммерческих работ — делай учебные
+
+Придумай условного клиента, сделай работу как для реального заказа. Честно подпиши: «Учебная работа».
+
+Главная мысль:
+Лучше 3–4 сильных кейса, чем 15 «как попало». Портфолио — твой главный аргумент.`,
+      en: `Portfolio is a showcase, not a dump of works.
+
+1. Choose 3-6 best works
+
+Remove all weak and old. Keep only what you're not ashamed to show.
+
+2. Proper screenshots
+
+No extra tabs, notifications. Same size and format.
+
+3. Describe not only what, but why
+
+Task → What you did → Result. It's a mini-story.
+
+4. No commercial works — do practice ones
+
+Invent a fictional client, do work as for real order. Honestly label: "Practice work".
+
+Key takeaway:
+Better 3-4 strong cases than 15 "any which way". Portfolio is your main argument.`
+    }
+  },
+  {
+    id: 6,
+    title: {
+      ru: 'Как устроить цены',
+      en: 'How to Set Prices'
+    },
+    content: {
+      ru: `Цена — это сигнал: кто ты и какой уровень даёшь.
+
+1. Привяжи цену к опыту
+
+Новичок → ниже рынка. Средний → рынок. Профи → выше рынка с аргументацией.
+
+2. Раздели по размерам
+
+~$10 — мини-задача.
+$30–50 — средняя задача.
+$100+ — крупный проект.
+
+3. Доп.опции и апселлы
+
+«Срочное выполнение», «Дополнительные правки», «Полный пакет» — за отдельную плату.
+
+4. Не застревай в демпинге
+
+Низкая цена — инструмент набрать отзывы. Как появятся заказы и оценки — поднимай прайс.
+
+Главная мысль:
+Цена должна быть понятной и честной. Уважай своё время — и клиенты будут уважать.`,
+      en: `Price is a signal: who you are and what level you provide.
+
+1. Tie price to experience
+
+Beginner → below market. Average → market. Pro → above market with justification.
+
+2. Divide by size
+
+~$10 — mini-task.
+$30–50 — medium task.
+$100+ — large project.
+
+3. Add-ons and upsells
+
+"Rush delivery", "Extra revisions", "Full package" — separate fee.
+
+4. Don't get stuck in dumping
+
+Low price — tool to collect reviews. Once orders and ratings appear — raise prices.
+
+Key takeaway:
+Price should be clear and honest. Respect your time — and clients will respect it.`
+    }
+  },
+  {
+    id: 7,
+    title: {
+      ru: 'Как работать через TaskHub',
+      en: 'How to Work via TaskHub'
+    },
+    content: {
+      ru: `TaskHub — твоя рабочая площадка.
+
+1. Настрой профиль и ищи задания
+
+Заполни профиль, отфильтруй задания по направлениям, откликайся на те, что можешь выполнить качественно.
+
+2. Безопасная сделка
+
+Клиент вносит оплату → деньги резервируются → после сдачи работы и подтверждения клиента → средства на твой баланс.
+
+3. Внутренняя валюта
+
+Оплаты попадают на баланс TaskHub. Оттуда выводишь на платёжные системы.
+
+4. Общение — только через платформу
+
+Все договорённости и файлы фиксируй в чате. В случае спора модерация видит историю.
+
+5. Проблемы и споры
+
+Не паниковать. Спокойно объясни ситуацию в чате. Не помогает — открываешь спор с подробным описанием.
+
+Главная мысль:
+Работать через TaskHub — значит использовать защиту платформы. Не выводить коммуникацию и оплату «в сторону».`,
+      en: `TaskHub is your work platform.
+
+1. Set up profile and find tasks
+
+Fill profile, filter tasks by area, respond to those you can quality complete.
+
+2. Secure deal
+
+Client deposits payment → funds reserved → after work delivery and client confirmation → funds to your balance.
+
+3. Internal currency
+
+Payments go to TaskHub balance. From there withdraw to payment systems.
+
+4. Communication — only via platform
+
+Fix all agreements and files in chat. In case of dispute, moderation sees history.
+
+5. Problems and disputes
+
+Don't panic. Calmly explain situation in chat. Doesn't help — open dispute with detailed description.
+
+Key takeaway:
+Working via TaskHub means using platform protection. Don't take communication and payment "outside".`
+    }
+  },
+  {
+    id: 8,
+    title: {
+      ru: 'Как не попадать на мошенников',
+      en: 'How to Avoid Scammers'
+    },
+    content: {
+      ru: `Твои нервы, время и деньги дороже любого «супервыгодного» предложения.
+
+1. Не выходи из платформы
+
+Общение — в чате TaskHub. Оплата — через безопасную сделку. Файлы — через платформу.
+
+2. Не отправляй полноценную работу без оплаты
+
+Покажи превью (с водяным знаком). Полный файл — после оплаты.
+
+3. Осторожно со ссылками и файлами
+
+Не переходи по странным ссылкам, не скачивай подозрительные архивы.
+
+4. Не принимай оплату напрямую
+
+«Чуть больше, но на карту» — такие схемы лишают защиты платформы.
+
+5. Не отправляй личные данные
+
+Настоящему клиенту не нужны фото паспорта, сканы карты, коды из SMS.
+
+6. Узнавай токсичных клиентов
+
+Постоянное давление, оскорбления, фразы вроде «это фигня работа» — лучше попрощаться.
+
+Главная мысль:
+Безопасность — это привычка. Пара простых правил снижает риски и оставляет время на нормальных клиентов.`,
+      en: `Your nerves, time and money are worth more than any "super profitable" offer.
+
+1. Don't leave the platform
+
+Communication — in TaskHub chat. Payment — via secure deal. Files — via platform.
+
+2. Don't send full work without payment
+
+Show preview (with watermark). Full file — after payment.
+
+3. Careful with links and files
+
+Don't click strange links, don't download suspicious archives.
+
+4. Don't accept direct payment
+
+"Slightly more but to card" — such schemes remove platform protection.
+
+5. Don't send personal data
+
+Real client doesn't need passport photos, card scans, SMS codes.
+
+6. Recognize toxic clients
+
+Constant pressure, insults, phrases like "this is crap work" — better to say goodbye.
+
+Key takeaway:
+Security is a habit. A couple simple rules reduce risks and leave time for normal clients.`
+    }
+  },
+  {
+    id: 9,
+    title: {
+      ru: 'Как выполнять работу быстро и качественно',
+      en: 'How to Deliver Work Fast and Quality'
+    },
+    content: {
+      ru: `Скорость без качества не нужна. Качество без сроков — тоже. Нужен баланс.
+
+1. Сначала черновик — потом детали
+
+Покажи структуру, план. После одобрения — уходи в глубину.
+
+2. Делай мини-отчёты
+
+«Сегодня сделал это, завтра возьмусь за это». Снижает тревогу клиента.
+
+3. Не стартуй без вводных
+
+Собери все материалы: тексты, логотипы, доступы. Уточни спорное. Только потом начинай.
+
+4. Работай блоками 40–60 минут
+
+Таймер на 40–60 минут фокуса, затем перерыв 5–10 минут.
+
+5. Держи чистоту
+
+В коде — понятные имена, структура. В дизайне — порядок в слоях. В текстах — структура и читабельность.
+
+Главная мысль:
+Люди возвращаются за качеством. А качество — это внимание к мелочам, стабильный процесс и уважение к срокам.`,
+      en: `Speed without quality is useless. Quality without deadlines too. Need balance.
+
+1. Draft first — details later
+
+Show structure, plan. After approval — go into depth.
+
+2. Make mini-reports
+
+"Today did this, tomorrow will do that". Reduces client anxiety.
+
+3. Don't start without inputs
+
+Collect all materials: texts, logos, access. Clarify unclear. Only then start.
+
+4. Work in 40-60 minute blocks
+
+Timer for 40-60 minutes focus, then 5-10 minute break.
+
+5. Keep it clean
+
+In code — clear names, structure. In design — layer order. In texts — structure and readability.
+
+Key takeaway:
+People return for quality. Quality is attention to details, stable process and respect for deadlines.`
+    }
+  },
+  {
+    id: 10,
+    title: {
+      ru: 'Как получить постоянных клиентов',
+      en: 'How to Get Regular Clients'
+    },
+    content: {
+      ru: `Самое ценное во фрилансе — люди, которые возвращаются снова и снова.
+
+1. Всегда держи слово
+
+Обещал срок — уложись. Не успеваешь — предупреди заранее. Клиенты ценят предсказуемость.
+
+2. Делай чуть больше
+
+Дополнительный вариант, мелкая доработка, короткое пояснительное видео. Создаёт ощущение заботы.
+
+3. Общайся уважительно
+
+Даже когда сложно. Фокусируйся на решении, а не на выяснении, кто правее.
+
+4. Отмечай старых клиентов
+
+Небольшая скидка, приоритет в задачах, абонемент. Лояльность должна иметь смысл.
+
+5. Предлагай идеи
+
+Не просто выполняй команды. Предлагай улучшения, помогай бизнесу клиента расти.
+
+Главная мысль:
+Постоянные клиенты — результат того, как ты работаешь, общаешься и держишь сроки. Выстраивай нормальные отношения.`,
+      en: `Most valuable in freelancing — people who return again and again.
+
+1. Always keep your word
+
+Promised deadline — meet it. Can't make it — warn in advance. Clients value predictability.
+
+2. Do a bit more
+
+Extra variant, small improvement, short explanation video. Creates sense of care.
+
+3. Communicate respectfully
+
+Even when difficult. Focus on solution, not on who's more right.
+
+4. Mark old clients
+
+Small discount, priority in tasks, subscription. Loyalty should make sense.
+
+5. Suggest ideas
+
+Don't just execute commands. Suggest improvements, help client's business grow.
+
+Key takeaway:
+Regular clients — result of how you work, communicate and meet deadlines. Build normal relationships.`
     }
   }
 ];
