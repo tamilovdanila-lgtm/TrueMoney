@@ -6,8 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import OAuthButtons from '@/components/auth/OAuthButtons';
 import { useAuth } from '@/contexts/AuthContext';
-import { useWeglot } from '@/hooks/useWeglot';
-import { getSupabase } from '@/lib/supabaseClient';
+import { useTranslation } from '@/hooks/useTranslation';
 
 const pageVariants = {
   initial: { opacity: 0, y: 16 },
@@ -18,7 +17,7 @@ const pageVariants = {
 const pageTransition = { type: 'spring' as const, stiffness: 140, damping: 20, mass: 0.9 };
 
 export default function LoginPage() {
-  const { t } = useWeglot();
+  const { t } = useTranslation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -34,24 +33,7 @@ export default function LoginPage() {
       const result = await login(email, password);
 
       if (result.success) {
-        const supabase = getSupabase();
-        const { data: { session } } = await supabase.auth.getSession();
-
-        if (session?.user) {
-          const { data: profile } = await supabase
-            .from('profiles')
-            .select('profile_completed')
-            .eq('id', session.user.id)
-            .maybeSingle();
-
-          if (profile && !profile.profile_completed) {
-            window.location.hash = '/profile-completion';
-          } else {
-            window.location.hash = '/';
-          }
-        } else {
-          window.location.hash = '/';
-        }
+        window.location.hash = '/';
       } else {
         setError(result.error || t('errors.generic'));
       }
@@ -78,7 +60,7 @@ export default function LoginPage() {
             <CardContent className="p-8">
               <div className="text-center mb-8">
                 <h1 className="text-3xl font-bold tracking-tight mb-2">{t('auth.loginTitle')}</h1>
-                <p className="text-[#3F7F6E]">{t('auth.login')}</p>
+                <p className="text-[#3F7F6E]">{t('auth.loginTitle')}</p>
               </div>
 
               <form onSubmit={handleSubmit} className="grid gap-4">
@@ -113,7 +95,7 @@ export default function LoginPage() {
                     <Input
                       id="password"
                       type="password"
-                      placeholder={t('auth.passwordPlaceholder')}
+                      placeholder="••••••••"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       className="pl-9 h-11"
