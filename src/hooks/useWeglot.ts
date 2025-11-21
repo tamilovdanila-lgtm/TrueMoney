@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { translations, TranslationKey } from '@/locales/translations';
 
 export function useWeglot() {
   const [currentLang, setCurrentLang] = useState<string>('ru');
@@ -31,16 +30,10 @@ export function useWeglot() {
     return window.Weglot?.getCurrentLang() || 'ru';
   };
 
-  const t = (key: TranslationKey): string => {
-    const lang = currentLang === 'en' ? 'en' : 'ru';
-    return translations[lang][key] || key;
-  };
-
   return {
     currentLang,
     isReady,
     switchLanguage,
     getCurrentLanguage,
-    t,
   };
 }
