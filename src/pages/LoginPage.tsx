@@ -7,6 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import OAuthButtons from '@/components/auth/OAuthButtons';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTranslation } from '@/hooks/useTranslation';
+import { getSupabase } from '@/lib/supabaseClient';
 
 const pageVariants = {
   initial: { opacity: 0, y: 16 },
@@ -33,7 +34,24 @@ export default function LoginPage() {
       const result = await login(email, password);
 
       if (result.success) {
-        window.location.hash = '/';
+        const supabase = getSupabase();
+        const { data: { session } } = await supabase.auth.getSession();
+
+        if (session?.user) {
+          const { data: profile } = await supabase
+            .from('profiles')
+            .select('profile_completed')
+            .eq('id', session.user.id)
+            .maybeSingle();
+
+          if (profile && !profile.profile_completed) {
+            window.location.hash = '/profile-completion';
+          } else {
+            window.location.hash = '/';
+          }
+        } else {
+          window.location.hash = '/';
+        }
       } else {
         setError(result.error || t('errors.generic'));
       }
