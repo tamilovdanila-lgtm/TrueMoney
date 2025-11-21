@@ -160,20 +160,3 @@ html, body {
 * {
   box-sizing: border-box;
 }
-
-.wg-notranslate {
-  translate: no;
-}
-
-[data-no-translate="true"] {
-  translate: no;
-}
-
-.user-content,
-.chat-message,
-.proposal-content,
-.order-description,
-.task-description,
-.review-text {
-  translate: no;
-}
