@@ -727,7 +727,7 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-background">
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 lg:py-10">
           <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-4 lg:gap-6 items-start">
-            <div className="grid gap-4 lg:gap-6 lg:sticky lg:top-24 lg:self-start lg:z-10">
+            <aside className="grid gap-4 lg:gap-6 lg:sticky lg:top-24 lg:self-start lg:overflow-y-auto lg:pr-2" style={{ maxHeight: 'calc(100vh - 7rem)' }}>
               <Card>
                 <CardContent className="p-4 lg:p-6 grid gap-3 lg:gap-4">
                   <div className="flex items-center gap-3">
@@ -869,9 +869,9 @@ export default function ProfilePage() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
+            </aside>
 
-            <div className="grid gap-4 lg:gap-6">
+            <main className="grid gap-4 lg:gap-6 min-w-0">
               <Card>
                 <CardContent className="p-3 lg:p-6">
                   <div className="flex flex-col lg:flex-row lg:items-center gap-2">
@@ -1701,7 +1701,7 @@ export default function ProfilePage() {
                   )}
                 </AnimatePresence>
               </div>
-            </div>
+            </main>
           </div>
         </section>
 
