@@ -1128,12 +1128,12 @@ export default function ProfilePage() {
                     </CardHeader>
                     <CardContent className="p-4 lg:p-6 pt-0 grid gap-4 lg:gap-6">
                       <div>
-                        <h3 className="font-semibold text-base lg:text-lg mb-2">{profile.headline}</h3>
-                        <p className="text-sm lg:text-base text-[#3F7F6E] leading-relaxed mb-3 lg:mb-4">{profile.about}</p>
+                        <h3 className="font-semibold text-base lg:text-lg mb-2" data-wg-notranslate>{profile.headline}</h3>
+                        <p className="text-sm lg:text-base text-[#3F7F6E] leading-relaxed mb-3 lg:mb-4 profile-bio" data-wg-notranslate>{profile.about}</p>
                         {profile.bio && (
                           <div className="mt-3 lg:mt-4 p-3 lg:p-4 rounded-xl bg-gradient-to-br from-[#EFFFF8] to-white border">
                             <h4 className="font-medium mb-2 text-xs lg:text-sm text-[#3F7F6E]">Подробнее обо мне</h4>
-                            <p className="text-xs lg:text-sm leading-relaxed">{profile.bio}</p>
+                            <p className="text-xs lg:text-sm leading-relaxed profile-bio" data-wg-notranslate>{profile.bio}</p>
                           </div>
                         )}
                       </div>
@@ -1211,7 +1211,7 @@ export default function ProfilePage() {
                         <h4 className="font-semibold text-sm lg:text-base mb-3 lg:mb-4">Навыки и технологии</h4>
                         <div className="flex flex-wrap gap-1.5 lg:gap-2">
                           {profile.skills.map((s) => (
-                            <Badge key={s} variant="secondary" className="px-2 lg:px-3 py-1 lg:py-1.5 text-xs lg:text-sm">
+                            <Badge key={s} variant="secondary" className="px-2 lg:px-3 py-1 lg:py-1.5 text-xs lg:text-sm" data-wg-notranslate>
                               {s}
                             </Badge>
                           ))}
