@@ -149,12 +149,11 @@ class AuthService {
       console.log('Profile loaded successfully:', this.authState.user);
       this.notify();
 
-      // ALWAYS redirect new users to profile completion (unless admin or already on that page)
+      // Check if profile needs completion (only redirect if not already on that page and user is not admin)
       if (profile && !profile.profile_completed &&
           window.location.hash !== '#/profile-completion' &&
           role !== 'admin' &&
-          !window.location.hash.startsWith('#/admin') &&
-          !window.location.hash.startsWith('#/oauth-callback')) {
+          !window.location.hash.startsWith('#/admin')) {
         console.log('Profile incomplete, redirecting to profile completion...');
         // Small delay to ensure state is updated
         setTimeout(() => {

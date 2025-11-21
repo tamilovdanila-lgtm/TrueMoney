@@ -15,7 +15,6 @@ export const translations = {
     'auth.forgotPassword': 'Забыли пароль?',
     'auth.haveAccount': 'Уже есть аккаунт?',
     'auth.noAccount': 'Нет аккаунта?',
-    'auth.dontHaveAccount': 'Еще нет аккаунта?',
     'auth.loginTitle': 'Вход в TaskHub',
     'auth.registerTitle': 'Создайте аккаунт на TaskHub',
     'auth.passwordMin': 'Пароль (минимум 8 символов)',
@@ -33,7 +32,6 @@ export const translations = {
     'common.loading': 'Загрузка...',
     'common.submit': 'Отправить',
     'common.close': 'Закрыть',
-    'common.register': 'Зарегистрироваться',
 
     // Forms
     'form.title': 'Заголовок',
@@ -104,7 +102,6 @@ export const translations = {
     'auth.forgotPassword': 'Forgot password?',
     'auth.haveAccount': 'Already have an account?',
     'auth.noAccount': 'Don\'t have an account?',
-    'auth.dontHaveAccount': 'Don\'t have an account yet?',
     'auth.loginTitle': 'Log in to TaskHub',
     'auth.registerTitle': 'Create your TaskHub account',
     'auth.passwordMin': 'Password (minimum 8 characters)',
@@ -122,7 +119,6 @@ export const translations = {
     'common.loading': 'Loading...',
     'common.submit': 'Submit',
     'common.close': 'Close',
-    'common.register': 'Sign Up',
 
     // Forms
     'form.title': 'Title',
