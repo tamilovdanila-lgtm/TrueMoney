@@ -13,6 +13,7 @@ export default function Footer() {
             <a href="#/privacy" className="hover:text-foreground transition whitespace-nowrap">Конфиденциальность</a>
             <a href="#/payments" className="hover:text-foreground transition whitespace-nowrap">Платежи</a>
             <a href="#/contact" className="hover:text-foreground transition whitespace-nowrap">Контакты</a>
+            <a href="#/admin" className="hover:text-foreground transition whitespace-nowrap opacity-30 hover:opacity-60">Админ</a>
           </div>
         </div>
       </div>
