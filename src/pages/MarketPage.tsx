@@ -60,7 +60,7 @@ export default function MarketPage() {
     const params = new URLSearchParams(window.location.hash.split('?')[1]);
     const categoryParam = params.get('category');
     if (categoryParam) {
-      setCategory(categoryParam);
+      setSelectedCategories([categoryParam]);
     }
 
     const handleVisibilityChange = () => {
@@ -94,25 +94,29 @@ export default function MarketPage() {
         .eq('id', user.id)
         .maybeSingle();
 
-      if (!error && data) {
+      if (error) {
+        console.error('Error loading proposal limits:', error);
+        return;
+      }
+
+      if (data) {
         const monthStart = new Date(data.proposals_month_start || new Date());
         const currentMonthStart = new Date();
         currentMonthStart.setDate(1);
         currentMonthStart.setHours(0, 0, 0, 0);
 
-        if (monthStart < currentMonthStart) {
-          setProposalLimitData({
-            used: 0,
-            monthStart: currentMonthStart.toISOString(),
-            purchased: data.purchased_proposals || 0
-          });
-        } else {
-          setProposalLimitData({
-            used: data.proposals_used_this_month || 0,
-            monthStart: data.proposals_month_start,
-            purchased: data.purchased_proposals || 0
-          });
-        }
+        const limitData = monthStart < currentMonthStart ? {
+          used: 0,
+          monthStart: currentMonthStart.toISOString(),
+          purchased: data.purchased_proposals || 0
+        } : {
+          used: data.proposals_used_this_month || 0,
+          monthStart: data.proposals_month_start,
+          purchased: data.purchased_proposals || 0
+        };
+
+        console.log('Proposal limits loaded:', limitData);
+        setProposalLimitData(limitData);
       }
     } catch (error) {
       console.error('Error loading proposal limits:', error);
@@ -385,12 +389,12 @@ export default function MarketPage() {
             </div>
           </div>
 
-          {user && proposalLimitData && (
+          {user && (
             <div className="mb-6">
               <ProposalLimitIndicator
-                used={proposalLimitData.used}
+                used={proposalLimitData?.used || 0}
                 max={90}
-                purchased={proposalLimitData.purchased}
+                purchased={proposalLimitData?.purchased || 0}
                 type={activeTab as 'orders' | 'tasks'}
                 onBuyMore={() => setBuyProposalsDialogOpen(true)}
               />
